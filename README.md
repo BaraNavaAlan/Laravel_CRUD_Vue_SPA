@@ -25,7 +25,19 @@ List of command used on the proyect.
    ```sh
    npm install
    ```
-   3. Run NPM
+3.2. Run NPM
    ```sh
    npm run dev
+   ```
+4. Crate the model Blog
+   ```sh
+   php artisan make:model Blog
+   ```
+5. Create the migration
+   ```sh
+   php artisan make:migration create_blogs_table
+   ```
+6. Run the migration
+   ```sh
+   php artisan migrate
    ```
