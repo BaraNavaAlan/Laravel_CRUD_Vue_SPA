@@ -41,3 +41,8 @@ List of command used on the proyect.
    ```sh
    php artisan migrate
    ```
+7. Create the Controller
+   ```sh
+   php artisan make:controller BlogController --resource
+   ```
+   
